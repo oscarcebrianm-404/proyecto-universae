@@ -1,0 +1,337 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+    :root {
+      --blue: #134c8f;
+      --blue-dark: #134c8f;
+      --bg: #b6e1f9;
+      --card-dark: rgba(0, 0, 0, 0.75);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+
+    }
+
+    body {
+      margin: auto;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #b6e1f9;
+      color: #0b1a2b;
+
+    }
+
+    /* Encabezado principal */
+    .header {
+      background-color: #134c8f;
+      color: white;
+      padding: 50px 28px;
+      display: flex;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    .brand .logo {
+      width: 280px;
+      height: 44px;
+      border-radius: 200px;
+      color: var(--blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+    }
+
+    .brand-name {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.05;
+    }
+
+    .brand-name .title {
+      font-size: 22px;
+    }
+
+    .brand-name .subtitle {
+      font-size: 10px;
+      opacity: .95;
+    }
+
+    /* Contenido principal */
+    .container {
+      max-width: 10px;
+      padding: 120px;
+      max-height: 0%;
+
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    /* Tarjeta */
+    .card1 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      margin-top: -80px;
+      font-weight: 600;
+      text-align: start;
+      width: 360px;
+      height: 265px;
+      margin-left: 210px;
+      flex: center;
+      margin-bottom: 50px;
+
+    }
+
+    .card2 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      color: #fff;
+      margin-top: -80px;
+      font-weight: 600;
+      text-align: start;
+      font-size: 29px;
+      width: 360px;
+      height: 265px;
+      margin-left: 10px;
+      flex: center;
+      margin-bottom: 50px;
+    }
+
+    .card3 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      color: #fff;
+      margin-top: -80px;
+      font-weight: 600;
+      text-align: start;
+      font-size: 29px;
+      width: 360px;
+      height: 265px;
+      margin-left: 10px;
+      flex: center;
+      margin-bottom: 50px;
+
+    }
+
+    .card4 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      color: #fff;
+      font-weight: 600;
+      text-align: start;
+      font-size: 29px;
+      width: 360px;
+      height: 265px;
+      margin-left: 210px;
+      flex: center;
+
+    }
+
+    .card5 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      color: #fff;
+      font-weight: 600;
+      text-align: start;
+      font-size: 29px;
+      width: 360px;
+      height: 265px;
+      margin-left: 10px;
+      flex: center;
+    }
+
+    .card6 {
+      background-color: hsl(214, 77%, 14%);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      color: #fff;
+      font-weight: 600;
+      text-align: start;
+      font-size: 29px;
+      width: 360px;
+      height: 265px;
+      margin-left: 10px;
+      flex: center;
+
+    }
+
+
+
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p,
+    .card6 p {
+      margin-left: 18px;
+      margin-right: 10px;
+      font-size: 80%;
+      margin-top: -15px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      letter-spacing: -0, 9px;
+
+
+    }
+
+
+    .card1:hover,
+    .card2:hover,
+    .card3:hover,
+    .card4:hover,
+    .card5:hover,
+    .card6:hover {
+      transform: scale(1.03);
+
+    }
+
+    .card1 img {
+     width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+
+    }
+
+    .card2 img {
+    width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+
+    }
+
+    .card3 img {
+    width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+
+    }
+
+    .card4 img {
+     width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+    }
+
+    .card5 img {
+     width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+    }
+
+    .card6 img {
+      width: 105%;
+      height: 105%;
+      margin-top: -5px;
+      margin-left: -9px;
+      margin-bottom: -5px;
+    }
+
+    .contenedor-columnas {
+
+      display: flex;
+      flex-direction: column;
+      /* Apila los elementos verticalmente */
+      align-items: flex-end;
+      /* Alinea los elementos a la derecha */
+      width: 50%;
+      /* Ancho del contenedor */
+      margin-left: auto;
+      /* Centra el contenedor */
+    }
+
+    .contenedor-columnas img {
+      margin-bottom: 10px;
+      /* Espacio entre imágenes */
+      width: 650px;
+      margin-right: 40px;
+    }
+
+
+
+
+
+
+    /* Pie de página con iconos */
+    .footer {
+      background-color: #134c8f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 500px;
+    }
+
+    .social {
+      display: inline-flex;
+      gap: 18px;
+      margin-top: 6px;
+    }
+
+    .social a {
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      transition: 0.2s ease;
+    }
+
+    .social a:hover {
+      background: rgba(255, 255, 255, .25);
+    }
+
+    /* Responsividad */
+    @media (max-width: 1100px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .brand {
+        align-items: center;
+      }
+    }
