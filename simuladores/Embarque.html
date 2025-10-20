@@ -10,32 +10,38 @@
   <link rel="stylesheet" href="../styles2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     integrity="sha512-...F" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet" />
+  <script src="path/to/lightbox.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+
+    })
+  </script>
 </head>
 <!-- Encabezado -->
 <header class="header" aria-label="Encabezado principal">
   <div class="brand">
     <div class="logo" aria-label="Logo">
-      <img src="/images/InterfazHome/InterfazHome/HeaderWebUniversae.png" alt="">
+      <a href="http://127.0.0.1:5500/index.html"><img src="/images/InterfazHome/InterfazHome/HeaderWebUniversae.png" alt=""></a>
     </div>
   </div>
 </header>
 
 <body>
   
-  <iframe src="https://html-classic.itch.zone/html/8839341/index.html" frameborder="0"></iframe>
+  <iframe src="https://html-classic.itch.zone/html/8839341/index.html" width="500" height="300" allowfullscreen mozallowfullscreen webkitallowfullscreen frameborder="0"></iframe>
 
   <section>
 
-    <div class="Descripcion">
-      <h2> Embarque y desembarque en helicoptero</h2>
-      <h4> Requiere seguir procedimientos de seguridad estrictos, como esperar la señal del piloto, 
-        acercarse siempre por delante y en cuclillas, y mantenerse siempre a la vista del piloto.</h4>
-    </div>
-    <div class="contenedor-columnas">
-      <img src="/images/Embarque/Embarque/Embarque1.png" alt="">
-      <img src="/images/Embarque/Embarque/Embarque2.png" alt="">
-      <img src="/images/Embarque/Embarque/Embarque3.png" alt="">
-      <img src="/images/Embarque/Embarque/Embarque4.png" alt="">
+    
+  
+    <div class="contenedor-columnas1">
+      <a href="/lib/lightbox2/images/Embarque1.png" data-lightbox="roadtrip"><img src="/lib/lightbox2/images/Embarque1.png"></a>
+      <a href="/lib/lightbox2/images/Embarque2.png" data-lightbox="roadtrip"><img src="/lib/lightbox2/images/Embarque2.png"></a>
+      <a href="/lib/lightbox2/images/Embarque3.png" data-lightbox="roadtrip"><img src="/lib/lightbox2/images/Embarque3.png"></a>
+      <a href="/lib/lightbox2/images/Embarque4.png" data-lightbox="roadtrip"><img src="/lib/lightbox2/images/Embarque4.png"></a>
     </div>
 
 
@@ -43,10 +49,10 @@
 
   </section>
 
-  <script src="/lib/dist/js/lightbox-plus-jquery.min.js"></script>
+  
   
   <!-- Pie de página con iconos sociales -->
-  <footer class="footer" aria-label="Pie de página">
+  <footer class="footer-1" aria-label="Pie de página">
 
     <nav class="social" aria-label="Redes sociales">
       <a href="https://www.facebook.com/UNIVERSAE/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
